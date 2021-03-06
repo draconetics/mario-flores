@@ -1,0 +1,114 @@
+.white-skills{
+    padding: 3rem;
+}
+
+.white-skills .w3l_head{
+    color: #44c7f4;
+}
+
+.historial{
+    padding: 3rem 0;
+}
+
+.historial table{
+    margin: 3rem 0;
+}
+.historial table thead{
+    background-color: #44c7f4;
+    color: white;
+    
+}
+.historial table thead tr th{
+    text-align: center;
+    
+}
+
+.historial table td{
+    padding: 2rem;
+}
+
+
+.foreign-language{
+    padding: 5rem 0;
+}
+
+.foreign-language p{
+    margin-bottom: 2rem;
+}
+
+.language{
+    background-color: black;
+    padding: 1rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color:white;
+}
+
+.language h4{
+    text-transform: none;
+    font-size: 2rem;
+}
+
+.language span{
+    background-color: black;
+    color:#44c7f4;
+    border: 1px solid white;
+    padding: 0 1rem;
+    margin: 0 .5rem;
+}
+
+
+.whatsapp{
+    width: 40px;
+}
+
+#gallery .fa{
+    font-size: 3rem;
+    color:#44c7f4;
+    transition: color .5s ease;
+}
+
+#gallery .fa:hover{
+    color:white;
+}
+
+.cv{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cv a{
+    text-decoration: none;
+    background-color: #44c7f4;
+    color:white;
+    padding: 1rem 2rem;
+    display: block;
+    width: fit-content;
+    margin-bottom: 3.5rem;
+    font-size: 1rem;
+    border:2px solid white;
+    animation: border-animation 4s infinite;
+}
+
+.cv a:hover{
+    background-color: #1abdf3;
+    border-color: red;
+}
+
+@keyframes border-animation {
+    0%{
+        border-color: white;
+    }
+    50%{
+        border-color: #1abdf3;
+    }
+    100%{
+        border-color: white;
+    }
+}
